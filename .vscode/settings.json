@@ -1,3 +1,4 @@
 {
-    "editor.fontFamily": "MonoLisa"
+    "editor.fontFamily": "MonoLisa",
+    "todo-tree.tree.hideIconsWhenGroupedByTag": true
 }
