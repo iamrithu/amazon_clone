@@ -93,7 +93,7 @@ class _AuthScreenState extends State<AuthScreen> {
                 padding: const EdgeInsets.all(8),
                 color: GlobalVariables.backgroundColor,
                 child: Form(
-                  key: _signInFormKey,
+                  key: _signUpFormKey,
                   child: Column(
                     children: [
                       CustomTextField (
@@ -120,7 +120,7 @@ class _AuthScreenState extends State<AuthScreen> {
                       CustomButton(
                           text: 'Sign Up',
                           onTap: () {
-                            if (_signInFormKey.currentState!.validate()) {
+                            if (_signUpFormKey.currentState!.validate()) {
                               signUpUser();
                             }
                           },
